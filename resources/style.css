@@ -1,0 +1,25 @@
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.box-header {
+  display: flex;
+}
+
+.box {
+  display: inline-block;
+  order: 3;
+  justify-content: flex-end;
+}
+
+.box-image {
+  order: 1;
+  justify-content: flex-start;
+}
+.box-logo {
+  color: MediumAquamarine;
+  order: 2;
+  justify-content: flex-start;
+}
