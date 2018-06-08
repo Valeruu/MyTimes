@@ -34,3 +34,18 @@ div a {
   width: 100px;
   color: black;
 }
+
+.large {
+  width: 630px;
+  border: 1px solid black;
+}
+
+.medium {
+  width: 300px;
+  border: 1px solid black;
+}
+
+.small {
+  width: 240px;
+  border: 1px solid black;
+}
