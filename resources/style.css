@@ -1,25 +1,36 @@
-header {
+.container {
+  display: flex;
+  align-items: center;
+  width: 1305px;
+  flex-direction: row;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  border: 1px solid black;
+  padding: 10px 10px;
+  margin: auto;
 }
 
-.box-header {
+.logo{
   display: flex;
+  width: 960px;
+  align-items: center;
+  padding-right: 10px
+}
+
+.logo span {
+  color: MediumAquamarine;
+  display: flex;
+  padding-left: 10px
 }
 
 .box {
-  display: inline-block;
-  order: 3;
-  justify-content: flex-end;
+  display: inline-flex;
+  align-items: center;
 }
 
-.box-image {
-  order: 1;
-  justify-content: flex-start;
-}
-.box-logo {
-  color: MediumAquamarine;
-  order: 2;
-  justify-content: flex-start;
+div a {
+  padding: 15px 15px;
+  width: 100px;
+  color: black;
 }
