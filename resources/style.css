@@ -35,17 +35,39 @@ div a {
   color: black;
 }
 
+.main-content {
+  display: flex;
+}
+
 .large {
   width: 630px;
   border: 1px solid black;
+  display: flex;
+  flex-direction: column;
 }
 
+.large div {
+  border: 1px solid black;
+}
 .medium {
   width: 300px;
+  border: 1px solid black;
+  flex-direction: column;
+}
+
+.medium div {
   border: 1px solid black;
 }
 
 .small {
   width: 240px;
   border: 1px solid black;
+  flex-direction: column;
+}
+
+.small div {
+  border: 1px solid black;
+
+.cookie {
+  width: 230px;
 }
