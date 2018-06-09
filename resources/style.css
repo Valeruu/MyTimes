@@ -1,3 +1,6 @@
+body {
+  display: block;
+}
 .container {
   display: flex;
   align-items: center;
@@ -37,7 +40,7 @@ div a {
 
 .main-content {
   display: flex;
-  justify-content: space-around;
+  width: 1232px;
 }
 
 .image-content span {
@@ -45,6 +48,11 @@ div a {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  text-align: left;
+}
+
+p {
+  display: block;
 }
 
 h2 {
@@ -52,23 +60,42 @@ h2 {
   display: block;
 }
 
-.large {
-  width: 630px;
+.column {
   display: flex;
   flex-direction: column;
+  margin-right: 32px;
 }
 
-.large .story{
+.column .large {
+  width: 630px;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+}
+
+.story {
   display: flex;
   flex-direction: column;
+  width: 300px;
+}
+
+.orca .burger {
+  height: 250px;
 }
 
 .image-content {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 300px;
 }
 
 .lead-story .image-content {
     background-image: url(images/img-story-main.png);
+    width: 630px;
 }
 
 .fall-cancelled .image-content {
@@ -83,6 +110,7 @@ h2 {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  margin-top: 16px;
 }
 
 .lead-story span {
@@ -93,9 +121,7 @@ h2 {
 }
 
 .medium {
-  display: flex;
   width: 300px;
-    flex-direction: column;
 }
 
 .cat-ceo .image-content {
@@ -104,22 +130,31 @@ h2 {
 
 .small {
   width: 240px;
-  flex-direction: column;
 }
 
 div {
   display: block;
 }
 
-.story {
-  display: flex;
-  flex-direction: column;
+.story div {
+  display:  block;
   justify-content: center;
+}
+
+.news-bites {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .news-bites .bite {
   display: block;
-  padding: 11px 20px;
   font-family: Verdana;
   font-size: 12px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  background-color: WhiteSmoke;
+  color: DimGray;
+  padding: 11px 20px;
+  text-align: left;
 }
