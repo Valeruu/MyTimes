@@ -47,6 +47,10 @@ div a {
   color: white;
 }
 
+h2 {
+  font-size: 30px;
+}
+
 .large {
   width: 630px;
   border: 1px solid black;
@@ -74,7 +78,21 @@ div a {
   background-image: url(images/img-story-3.png);
 }
 
+.narrative {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.lead-story span {
+  font-size: 40px;
+}
+.story span {
+  font-size: 30px;
+}
+
 .medium {
+  display: flex;
   width: 300px;
   border: 1px solid black;
   flex-direction: column;
@@ -85,7 +103,7 @@ div a {
 }
 
 .cat-ceo .image-content {
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+  background-image: url(images/img-story-1.png);
 }
 
 .small {
@@ -96,3 +114,12 @@ div a {
 
 .small div {
   border: 1px solid black;
+}
+
+.news-bites .bite {
+  display: block;
+  border: 1px solid black;
+  padding: 11px 20px;
+  font-family: Verdana;
+  font-size: 12px;
+}
