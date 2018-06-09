@@ -49,17 +49,18 @@ div a {
 
 h2 {
   font-size: 30px;
+  display: block;
 }
 
 .large {
   width: 630px;
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
 }
 
-.large div {
-  border: 1px solid black;
+.large .story{
+  display: flex;
+  flex-direction: column;
 }
 
 .image-content {
@@ -94,12 +95,7 @@ h2 {
 .medium {
   display: flex;
   width: 300px;
-  border: 1px solid black;
-  flex-direction: column;
-}
-
-.medium div {
-  border: 1px solid black;
+    flex-direction: column;
 }
 
 .cat-ceo .image-content {
@@ -108,17 +104,21 @@ h2 {
 
 .small {
   width: 240px;
-  border: 1px solid black;
   flex-direction: column;
 }
 
-.small div {
-  border: 1px solid black;
+div {
+  display: block;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .news-bites .bite {
   display: block;
-  border: 1px solid black;
   padding: 11px 20px;
   font-family: Verdana;
   font-size: 12px;
