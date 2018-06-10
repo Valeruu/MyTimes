@@ -1,5 +1,6 @@
 body {
   display: block;
+  height: 1300px;
 }
 .container {
   display: flex;
@@ -41,6 +42,11 @@ div a {
 .main-content {
   display: flex;
   width: 1232px;
+  height: 1200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 0px;
 }
 
 .image-content span {
@@ -64,10 +70,12 @@ h2 {
   display: flex;
   flex-direction: column;
   margin-right: 32px;
+  padding: 0px 10px;
 }
 
 .column .large {
   width: 630px;
+  padding: 0px 10px;
 }
 
 .stories {
@@ -78,7 +86,7 @@ h2 {
 .story {
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 280px;
 }
 
 .orca .burger {
@@ -122,6 +130,7 @@ h2 {
 
 .medium {
   width: 300px;
+  padding: 0px 40px;
 }
 
 .cat-ceo .image-content {
@@ -130,6 +139,7 @@ h2 {
 
 .small {
   width: 240px;
+  padding: 0px 20px;
 }
 
 div {
@@ -157,4 +167,38 @@ div {
   color: DimGray;
   padding: 11px 20px;
   text-align: left;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 325px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+footer span {
+  display: inline-block;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  border-right: 2px solid white;
+  padding-right: 15px;
+  color: white;
+
+}
+
+footer div {
+  padding-bottom: 15px;
+}
+
+.copy {
+  font-family: Verdana;
+  font-size: 12px;
 }
